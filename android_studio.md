@@ -20,3 +20,6 @@ gradle에 대해 막 뒤지다 보면 '플러그인'이라는 용어가 또 나�
 파일 이름이라던가 글 쓸 때 진짜 한글 절대 안 쓸거다 개빡친다..
 암튼 저거 ONEDRIVE 자체 이름을 바꿀라면 일단 관리자 계정으로 ONEDRIVE에 들어가야 되는데 항공대 계정이 그게 안되는 것 같아서 그건 학교에 문의해야 한다고 한다.
 (가끔 TEAMS에서 보면 나는 TEAMS 녹음버튼을 못 누르는 게 조금 이상했는데 그거랑 연관이 있는 것도 같다..) 암튼 내일 그래서 학교에 문의해볼라고 한다..!!
+
+https://myaccount.microsoft.com/settingsandprivacy/privacy
+https://docs.microsoft.com/ko-kr/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide
