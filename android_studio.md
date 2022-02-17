@@ -23,3 +23,12 @@ gradle에 대해 막 뒤지다 보면 '플러그인'이라는 용어가 또 나�
 
 https://myaccount.microsoft.com/settingsandprivacy/privacy
 https://docs.microsoft.com/ko-kr/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide
+
+결국 너무 화나서 onedrive를 하나 더 사서 이름에 영어 외에 절대 들어가지 않게 만들었다.
+근데 컴퓨터 속도가 늘어난 건 내 착각이겠지ㅠㅠ
+
+근데 너무 android를 만져서 그런지 또 오류가 또 났다 또또 또그런다 또
+NDK at C:\Users\20wjs\AppData\Local\Android\Sdk\ndk-bundle did not have a source.properties file
+이건데.. 오류 해결 방법을 잘 찾아본 다음에 할 거다..
+In my case I don't have ndk dir in the local.properties file and also didn't add ndk version in the build.gradle. I just simply deleted the ndk-bundle folder in the android sdk folder. and it worked.이 답변이 제일 맞는듯.. 낼 local.properties 파일을 한 번 보고 그 다음에 이제 해결할 예정이다
+
