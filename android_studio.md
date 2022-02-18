@@ -32,3 +32,8 @@ NDK at C:\Users\20wjs\AppData\Local\Android\Sdk\ndk-bundle did not have a source
 이건데.. 오류 해결 방법을 잘 찾아본 다음에 할 거다..
 In my case I don't have ndk dir in the local.properties file and also didn't add ndk version in the build.gradle. I just simply deleted the ndk-bundle folder in the android sdk folder. and it worked.이 답변이 제일 맞는듯.. 낼 local.properties 파일을 한 번 보고 그 다음에 이제 해결할 예정이다
 
+오류: unable to load script. make sure you're either running a metro server...
+하 이거는 오류 찾아볼 때 살짝 실수할 뻔 했다.
+build할 때랑 / 그냥 debug할 때를 살짝 헷갈려서 나락 갈뻔 했다ㅠㅠ
+그리고 자꾸 react-native 명령어랑 yarn 명령어가 계속 안 돼서 왜 자꾸 안돼 이럤는데 알고보니까 npx react-native 라고 명령어를 치면 그냥 해결되는 문제였다...
+생각보다 에러들에 대한 내용들이(react native라 그런건지) 한국어로 안 나와있어서 그냥 번역해서 영어로 쳤더니 외국인들이 더 잘 알려줬다... 너무 빡틴다..ㅠㅠ
