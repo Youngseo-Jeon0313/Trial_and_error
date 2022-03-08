@@ -37,3 +37,5 @@ In my case I don't have ndk dir in the local.properties file and also didn't add
 build할 때랑 / 그냥 debug할 때를 살짝 헷갈려서 나락 갈뻔 했다ㅠㅠ
 그리고 자꾸 react-native 명령어랑 yarn 명령어가 계속 안 돼서 왜 자꾸 안돼 이럤는데 알고보니까 npx react-native 라고 명령어를 치면 그냥 해결되는 문제였다...
 생각보다 에러들에 대한 내용들이(react native라 그런건지) 한국어로 안 나와있어서 그냥 번역해서 영어로 쳤더니 외국인들이 더 잘 알려줬다... 너무 빡틴다..ㅠㅠ
+
+만약에 환경변수/SDK를 변경한 후에도 적용이 안되었을 경우에 컴퓨터 재부팅을 시켜줘야 한다.
