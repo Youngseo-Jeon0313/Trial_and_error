@@ -15,3 +15,8 @@ v6.. 내가 다운로드받을 때 이런 버전 같은 거 잘 확인해야 하
 .native|.android.jsx|.native.jsx|.jsx|.android.js|.native.js|.js|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx|.android.json|.native.json|.json)
 이거는 metro.config.js에서 그 호환식을 써줘야 된다ㅠㅠㅠ
   
+component이름은 무조건 대문자로 시작해야 된다!!!!
+  
+navigate 를 쓰려는 거(onpress 함수가 실행되었을 때 navigation.navigate('')를 실행하게 하려면 그 함수의 파라미터로 {navigation}을 줘야함을 잊지말자!!!(경로 헷갈릴 수 있음 주의)
+  
+({}) 이거랑 {} 이거랑 {{}} 이거 어떤 거 써야 하는지 헷갈릴 수 이씅ㅁ 
