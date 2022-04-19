@@ -25,19 +25,23 @@ https://myaccount.microsoft.com/settingsandprivacy/privacy
 https://docs.microsoft.com/ko-kr/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide
 
 결국 너무 화나서 onedrive를 하나 더 사서 이름에 영어 외에 절대 들어가지 않게 만들었다.
-근데 컴퓨터 속도가 늘어난 건 내 착각이겠지ㅠㅠ
+근데 컴퓨터 속도가 늘어난 건 내 착각이겠지ㅠㅠ   
 
 근데 너무 android를 만져서 그런지 또 오류가 또 났다 또또 또그런다 또
 NDK at C:\Users\20wjs\AppData\Local\Android\Sdk\ndk-bundle did not have a source.properties file
 이건데.. 오류 해결 방법을 잘 찾아본 다음에 할 거다..
-In my case I don't have ndk dir in the local.properties file and also didn't add ndk version in the build.gradle. I just simply deleted the ndk-bundle folder in the android sdk folder. and it worked.이 답변이 제일 맞는듯.. 낼 local.properties 파일을 한 번 보고 그 다음에 이제 해결할 예정이다
+In my case I don't have ndk dir in the local.properties file and also didn't add ndk version in the build.gradle. I just simply deleted the ndk-bundle folder in the android sdk folder. and it worked.이 답변이 제일 맞는듯.. 낼 local.properties 파일을 한 번 보고 그 다음에 이제 해결할 예정이다   
 
 오류: unable to load script. make sure you're either running a metro server...
 하 이거는 오류 찾아볼 때 살짝 실수할 뻔 했다.
 build할 때랑 / 그냥 debug할 때를 살짝 헷갈려서 나락 갈뻔 했다ㅠㅠ
 그리고 자꾸 react-native 명령어랑 yarn 명령어가 계속 안 돼서 왜 자꾸 안돼 이럤는데 알고보니까 npx react-native 라고 명령어를 치면 그냥 해결되는 문제였다...
-생각보다 에러들에 대한 내용들이(react native라 그런건지) 한국어로 안 나와있어서 그냥 번역해서 영어로 쳤더니 외국인들이 더 잘 알려줬다... 너무 빡틴다..ㅠㅠ
+생각보다 에러들에 대한 내용들이(react native라 그런건지) 한국어로 안 나와있어서 그냥 번역해서 영어로 쳤더니 외국인들이 더 잘 알려줬다... 너무 빡틴다..ㅠㅠ   
 
-만약에 환경변수/SDK를 변경한 후에도 적용이 안되었을 경우에 컴퓨터 재부팅을 시켜줘야 한다
+만약에 환경변수/SDK를 변경한 후에도 적용이 안되었을 경우에 컴퓨터 재부팅을 시켜줘야 한다   
 
-오류: duplicate resources --- 확장자만 다른동일한 파일명이 있을 경우!(하지만 내 경우에는 동일한 파일들이 A 공간 B 공간에 둘 다 있는 경우였고, 다운로드 받은 github의 isssue 파트에 검색해서 해결했다.
+오류: duplicate resources --- 확장자만 다른동일한 파일명이 있을 경우!(하지만 내 경우에는 동일한 파일들이 A 공간 B 공간에 둘 다 있는 경우였고, 다운로드 받은 github의 isssue 파트에 검색해서 해결했다.   
+
+android studio는 아주 고오오오맙게도 보안이 너무 잘되어 있어서 http를 그냥 허용해주지 않는다. 그걸 허용해주기 위해서는 다양한 걸 지정해줘야 되는데 그건 여기 제일 잘 나와있음. https://stackoverflow.com/questions/45940861/android-8-cleartext-http-traffic-not-permitted  ?? 근데 내가 하면 8081번 만 가능....ㅠㅠ
+   
+그리고 C드라이브에 용량이 없으면 에뮬레이터가 실행되지를 못한다.. ㅠㅠ 그거 정리하고 들어가기
