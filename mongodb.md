@@ -7,3 +7,8 @@
     
    
 아무래도 html로 client가 crud 한 내용을 server로 그대로 받으려면.. html port번호가 같아야 한다.. 근데 나는 port가 이미 실행중이라는 에러를 받았는데ㅠㅠㅠ 이걸 극복하려면 cors를 써야하나..??ㅜㅜㅜ
+
+404error -> server가 없어요ㅠㅠ 내가 server를 실행시키지도 않고 계속 거기에다가 보낼라고 그래서 나온 에러
+
+data type error : cannot read property &#39;date&#39; of undefined
+-> 결국 500 error 나옴
