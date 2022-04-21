@@ -45,3 +45,8 @@ build할 때랑 / 그냥 debug할 때를 살짝 헷갈려서 나락 갈뻔 했�
 android studio는 아주 고오오오맙게도 보안이 너무 잘되어 있어서 http를 그냥 허용해주지 않는다. 그걸 허용해주기 위해서는 다양한 걸 지정해줘야 되는데 그건 여기 제일 잘 나와있음. https://stackoverflow.com/questions/45940861/android-8-cleartext-http-traffic-not-permitted  ?? 근데 내가 하면 8081번 만 가능....ㅠㅠ
    
 그리고 C드라이브에 용량이 없으면 에뮬레이터가 실행되지를 못한다.. ㅠㅠ 그거 정리하고 들어가기
+
+JNI critical lock held for on thread -> 이것도 C드라이브에 용량 없어가지고 나타나는 문제.. (필요하면 하드디스크 하나 더 사야 할 것 같다..ㅠ)   
+
+The application may be doing too much work on its main thread -> resource file 크기를 살펴봐야 한다. 근데 내가 생각하는 문제는 library 안에 똑같은 파일인데 버전이 다른 것들이 너무 많다..! 이걸 좀 정리하면 되지 않을까 생각.   
+
